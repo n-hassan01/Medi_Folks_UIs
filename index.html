@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medi Folks</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=PT+Serif:ital@1&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h2><a href="#"><img src="Assets/medifolks.png" alt="">Medi<span>Folks</span></a></h2>
+
+        <div id="nav-right">
+            <h4 id="firstaid"><a href="#firstAid">First Aid</a></h4>
+
+            <h4 id="patients"><a href="#Patient-UI">Make Requests</a></h4>
+
+            <h4 id="ambulance"><a href="ambulance.html" target="_blank">Ambulance Service</a></h4>
+
+            <div id="login-btn"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</div>
+            <div id="login-option">
+                <ul>
+                    <li>Volunteers</li>
+                    <li>Admin</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+    <div class="home">
+        <h4>A web based application for free medical services</h4>
+        <div class="doctor">
+            <h1>Doctors</h1>
+            <p> are you ready to be volunteers!!</p>
+        </div>
+        
+        <div id="login">Register Here</div>
+    </div>
+
+    <!-- First Aid section -->
+    <div class="firstAid" id="firstAid">
+        <img src="Assets/under-construction.png" alt="">
+    </div>
+
+    <!-- Patient UI section -->
+    <div class="Patient-UI" id="Patient-UI">
+        
+        <div class="intro">
+            <!-- <img src="Assets/Doctor_on_Duty-512.jpg" alt=""> -->
+            <h1>Welcome to <span>MediFolks</span></h1>
+            <p>
+                Our aim is to <span>maximize your medical privileges.</span>  
+            </p>
+        </div>
+
+        <div class="slide-show">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="https://www.yesprograms.org/assets/stories/BangladeshMCFV7.JPG" alt=""></div>
+                  <div class="swiper-slide"><img src="https://www.worldkidneyday.org/wp-content/uploads/events/38276/FMC_pic.jpg" alt=""></div>
+                  <!-- <div class="swiper-slide"><img src="http://www.industriall-union.org/sites/default/files/uploads/images/2019/BANGLADESH/Medical_Camp/img_20190726_124304.jpg" alt=""></div> -->
+                  <div class="swiper-slide"><img src="http://www.uhlbd.com/backend/web/post_uploads/1514375622CHC_Pic7.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="https://www.amalbangladesh.org/sites/images/health/children_health_camp/slider_image/IMG_7112.JPG" alt=""></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+        </div>
+
+        <div class="request-description">
+            <p>
+                Please make a request right now to avail our services.
+            </p>
+
+            <div id="request-btn">
+                Click Here
+            </div>
+        </div>
+
+    </div>
+
+    <div class="doctor-UI" id="doctor-UI">
+        <div class="side-nav">
+            <div class="logo">
+                <img src="Assets/Doctor_on_Duty-512.jpg" alt="">
+                <h2>MediFolks</h2>
+            </div>
+            <a href="#" id="profile">Profile</a>
+            <a href="#" id="create">Create Events</a>
+        </div>
+
+        <div class="content">
+            <h1>Created Events</h1>
+        </div>
+    </div>
+
+    <div class="ambulance-section" id="ambulance-section">
+        <!-- <div class="ambulance-sidebar">
+
+        </div> -->
+        <div class="title">
+            <img src="Assets/ambulance-logo.png
+            ">
+            <h2>Medi<span>Folks :</span></h2>
+            <h3>Ambulance Service</h3>
+
+            <div id="register">Register Now</div>
+            <div id="amb-login-btn"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</div>
+        </div>
+        <div class="right">
+            <img src="Assets/ambulancebd.png" alt="">
+        </div>
+
+        <div class="vdo-content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4sn_IEf-F-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+       });
+    </script>
+</body>
+</html>

@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url("https://www.verywellhealth.com/thmb/dWGynb6xHoQi3mD4KworxRsy010=/3869x2579/filters:fill(87E3EF,1)/hospital-597538868-5824c1bd3df78c6f6a47e853.jpg");
+    background-size: 100% 690px;
+    background-repeat: no-repeat;
+}
+
+/* navbar styling .. */
+
+.navbar{
+    /* position: fixed; */
+    background-color: none;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-right {
+    /* display: inline; */
+    float: right;
+    margin-right: 215px;
+    margin-top: 37px;
+}
+
+#ambulance{
+    /* border: 1px solid black; */
+    display: inline;
+    position: relative;    
+    margin-right: 36px;
+
+}
+
+#firstaid{
+    /* border: 1px solid black; */
+    display: inline;
+    position: relative;
+    /* margin-right: 25px; */
+}
+
+#patients{
+    /* border: 1px solid black; */
+    display: inline;
+    position: relative;
+    color: crimson;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#ambulance a:hover{
+    color: black;
+}
+
+#firstaid a:hover{
+    color: black;
+}
+
+#patients a:hover{
+    color: black;
+}
+
+.navbar h2{
+    display: inline;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 5px;
+    float: left;
+}
+
+.navbar h2 a img{
+    height: 50px;
+}
+
+#nav-right a{
+    color: crimson;
+}
+
+.navbar h2 a{
+    color: crimson;
+    font-size: 30px;
+}
+
+.navbar h2 a span{
+    color: white;
+    font-size: 35px;
+}
+
+#login-btn {
+    /* display: inline; */
+    background-color: crimson;
+    float: right;
+    width: 95px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-left: 35px;
+    margin-top: -11px;
+    border: 2px solid crimson;
+    border-radius: 4px;
+}
+
+#login-btn:hover{
+    cursor: pointer;
+    color: crimson;
+    background: none;
+}
+
+#login-btn i{
+    height: 10px;
+    padding-right: 6px;
+}
+
+#login-option ul{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 2px;
+    background: none;
+    border: 2px solid crimson;
+    width: 95px;
+    float: right;
+    margin-right: -130px;
+    margin-top: 15px;
+    /* border-radius: 5px; */
+    /* padding: 5px */
+    display: none;
+}
+
+#login-option ul li{
+    background-color: crimson;
+    margin: 2px;
+    width: 87px;
+    /* padding: 5px; */
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+    height: 32px;
+    padding: 4px;
+}
+
+#login-option ul li:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: crimson;
+}
+
+#login-btn:hover > #login-option ul{
+    display: block;
+}
+
+/* #login-btn ul li{
+    text-align: justify;
+    border: 1px solid black;
+} */
+
+
+/* home styling .. */
+.home{
+    text-align: center;
+    padding: 133px;   
+    font-family: 'Raleway', sans-serif;
+}
+
+.home h4{
+    font-size: 33px;
+    display: inline;
+}
+
+.doctor h1, .doctor p{
+    display: inline;
+    position: relative;
+}
+
+.doctor{
+    margin-top: 190px;
+}
+
+.doctor h1{
+    color: crimson;
+    font-size: 35px;
+}
+
+#login {
+    position: relative;
+    /* display: inline; */
+    padding: 20px;
+    width: 310px;
+    margin-top: 25px;
+    margin-left: 480px;
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: crimson;
+    border: 2px solid crimson;
+}
+
+#login:hover{
+    cursor: pointer;
+    color: crimson;
+    background: none;
+}
+
+/* First Aid section styling .. */
+.firstAid{
+    background-color: antiquewhite;
+    height: 690px;
+    margin-top: -26px;
+}
+
+.firstAid img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Patient UI styling .. */
+.Patient-UI{
+    font-family: 'Raleway', sans-serif;
+    height: 735px;
+    background-color: rgba(191, 233, 240, 0.514);
+    font-family: 'Raleway', sans-serif;
+    /* border: 2px solid black; */
+}
+
+/* .intro img{
+    display: inline;
+    height: 100px;
+} */
+
+.intro h1{
+    /* display: inline; */
+    position: relative;
+    font-size: 45px;
+    text-align: center;
+}
+
+.intro h1 span{
+    color: crimson;
+}
+
+.intro p{
+    /* display: inline; */
+    position: relative;
+    font-size: 27px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.intro{
+    padding-top: 40px;
+}
+
+#request-btn{
+    /* border: 1px solid black; */
+    /* display: inline; */
+    /* background-color: bisque; */
+    width: 395px;
+    /* height: 60px; */
+    border-radius: 5px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+    margin-left: 37%;
+    margin-top: 8px;
+}
+
+#request-btn:hover{
+    border: 2px solid crimson;
+    border-radius: 5px;
+    color: crimson;
+    cursor: pointer;
+    background: none;
+}
+
+.request-description p{
+    /* display: inline; */
+    position: relative;
+    text-align: center;
+}
+
+.request-description{
+    margin-top: 30px;
+}
+
+.intro p span{
+    color: crimson;
+}
+
+.swiper{
+    margin-top: 20px;
+    width: 75%;
+    height: 450px;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: whitesmoke;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: whitesmoke;
+}
+
+/* doctor section styling .. */
+.doctor-UI{
+    width: 100%;
+    height: 690px;
+    background-color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.side-nav{
+    height: 690px;
+    width: 150px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#profile{
+    color: crimson;
+    display: block;
+    background-color: rgb(246, 217, 223);
+    font-size: 25px;
+    /* margin: 10px; */
+    height: 150px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-top: 56px;
+}
+
+#create{
+    display: block;
+    background-color: rgb(246, 217, 223);
+    color: crimson;
+    text-align: center;
+    /* border: 25px solid rgba(207, 54, 85, 0.882); */
+    width: 100%;
+    height: 150px;
+    font-size: 25px;
+    padding-top: 43px;
+}
+
+.side-nav .logo img{
+    position: relative;
+    width: 78px;
+    height: 70px;
+    margin-left: 29px;
+}
+
+.side-nav .logo h2{
+    position: relative;
+    text-align: center;
+    font-size: 27px;
+    color: antiquewhite;
+}
+
+.side-nav .logo{
+    margin-top: 50px;
+}
+
+.doctor-UI .content h1{
+    display: inline;
+    position: relative;
+    margin-left: -130px;
+    font-size: 35px;
+    /* text-decoration: underline; */
+}
+
+.doctor-UI .content{
+    display: block;
+    /* border: 1px solid; */
+    width: 90%;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: -650px;
+}
+
+/* ambulance section styling .. */
+.ambulance-section{
+    width: 100%;
+    height: 690px;
+    background-color: rgb(51,51,51);
+}
+
+/* .ambulance-section .ambulance-sidebar{
+    height: 690px;
+    width: 150px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.089);
+    overflow-x: hidden;
+    padding-top: 20px;
+} */
+
+.ambulance-section .title img{
+    position: relative;
+    display: inline;
+    height: 65px;
+    width: 85px;
+    /* border: 1px solid crimson; */
+}
+
+.ambulance-section .title h3{
+    position: relative;
+    /* display: inline; */
+    /* border: 1px solid crimson; */
+    color: white;
+    width: 30%;
+    margin-left: 70px;
+    margin-left: 290px;
+    margin-top: -40px;
+    font-size: 32px;
+}
+
+.ambulance-section .title h2{
+    position: relative;
+    /* display: inline; */
+    /* border: 1px solid antiquewhite; */
+    color: antiquewhite;
+    width: 16%;
+    margin-left: 75px;
+    margin-top: -55px;
+    font-size: 35px;
+}
+
+.ambulance-section .title{
+    /* border: 1px solid crimson; */
+    /* display: inline; */
+    padding-left: 130px;
+    padding-top: 15px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.122);
+}
+
+.ambulance-section .right{
+    float: right;
+    margin-top: 150px;
+}
+
+.ambulance-section .right img{
+    height: 420px;
+}
+
+#amb-login-btn {
+    /* display: inline; */
+    background-color: crimson;
+    float: right;
+    width: 95px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-right: 100px;
+    margin-top: -43px;
+    border: 2px solid crimson;
+    border-radius: 4px;
+}
+
+#amb-login-btn:hover{
+    cursor: pointer;
+    color: crimson;
+    background: none;
+}
+
+#amb-login-btn i{
+    height: 10px;
+    padding-right: 6px;
+}
+
+#register {
+    position: relative;
+    /* display: inline; */
+    padding: 10px;
+    width: 120px;
+    margin-top: -38px;
+    margin-left: 1060px;
+    border-radius: 4px;
+    color: antiquewhite;
+    background-color: crimson;
+    border: 2px solid crimson;
+}
+
+#register:hover{
+    cursor: pointer;
+    color: crimson;
+    background: none;
+}
+
+.ambulance-section .vdo-content{
+    margin-left: 100px;
+    margin-top: 185px;
+}
+
